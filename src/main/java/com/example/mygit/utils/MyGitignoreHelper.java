@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 @Component
 @Getter
-public class MyGitignoreHandler {
+public class MyGitignoreHelper {
     private Collection<String> ignoreFilter;
 
     @EventListener(ApplicationStartedEvent.class)
